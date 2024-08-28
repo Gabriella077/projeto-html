@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+ padding: 0;
+box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header img{
+    width: 5vw;
+    margin: 1em;
+
+}
+
+.banner{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.banner img{
+    border-radius: 1em;
+    width: 70vw;
+    -webkit-box-shadow: 4px 10px 19px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 10px 19px 1px rgba(0,0,0,0.75);
+    box-shadow: 4px 10px 19px 1px rgba(0,0,0,0.75);
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circulo{
+    width: 10vw;
+    height: 20vh;
+    background-color: black;    
+    border-radius: 50%;
+    margin: 5em;
+}
+.quadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 20vh;
+}
+.texto{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 2em;
+}
+.imagem{
+    height: 15vh;
+    width: 10vw;
+    background-color: aqua;
+    margin: 4em;
+  background-image:url(transferir\ \(2\).jfif);
+  background-size: cover;
+}
